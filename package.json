@@ -1,0 +1,30 @@
+{
+  "name": "redux-persist-capacitor-storage",
+  "version": "1.0.0",
+  "description": "Storage adapter to use Capacitor Storage with redux-persist.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanwillis/redux-persist-capacitor-storage.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-persist",
+    "capacitor",
+    "capacitor",
+    "storage"
+  ],
+  "author": "Ryan Willis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanwillis/redux-persist-capacitor-storage/issues"
+  },
+  "homepage": "https://github.com/ryanwillis/redux-persist-capacitor-storage#readme",
+  "typings": "./src/index.d.ts",
+  "dependencies": {
+    "@capacitor/core": "^2.4.5"
+  }
+}
