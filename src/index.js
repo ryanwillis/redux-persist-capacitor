@@ -2,7 +2,7 @@
 import { Plugins } from '@capacitor/core';
 const { Storage } = Plugins;
 
-export class CapacitorStore {
+export class CapacitorStorage {
 
   async getItem(key) {
 
@@ -42,4 +42,4 @@ export class CapacitorStore {
 
 }
 
-export default new CapacitorStore();
+export default new CapacitorStorage();

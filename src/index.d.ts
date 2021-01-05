@@ -1,12 +1,22 @@
+import capacitorStorage from "../../../src/store/capacitorStorage";
 
-declare module CapacitorStorage {
-  class CapacitorStorage {
+declare namespace CapacitorStorage {
+
+  export interface CapacitorStorage {
     getItem(key: string) : object | string
     setItem(key: string, value: any): void
     removeItem(key: string) : void
     getAllKeys() : object | string
     clear() : void
   }
+
 }
 
-export default CapacitorStorage;
+declare module CapacitorStorage {
+
+  import C = CapacitorStorage.CapacitorStorage;
+  export = C;
+
+}
+
+export default capacitorStorage;
