@@ -8,3 +8,5 @@ declare module CapacitorStorage {
     clear() : void
   }
 }
+
+export default CapacitorStorage;
