@@ -3,7 +3,7 @@ Storage adapter to use [Capacitor Storage](https://capacitorjs.com/docs/apis/sto
 
 ## Installation
 ```bash
-npm install --save redux-persist-capacitor-storage
+npm install --save redux-persist-capacitor
 ```
 
 ## Usage
