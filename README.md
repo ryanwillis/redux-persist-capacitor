@@ -1,4 +1,4 @@
-# redux-persist-capacitor-storage
+# redux-persist-capacitor
 Storage adapter to use [Capacitor Storage](https://capacitorjs.com/docs/apis/storage) with [redux-persist](https://github.com/rt2zz/redux-persist).
 
 ## Installation
