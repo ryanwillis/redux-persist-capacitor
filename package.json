@@ -26,5 +26,8 @@
   "typings": "./src/index.d.ts",
   "dependencies": {
     "@capacitor/core": "^2.4.5"
+  },
+  "peerDependencies": {
+    "redux-persist": "^6.0.0"
   }
 }
