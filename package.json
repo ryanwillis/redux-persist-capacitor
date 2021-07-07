@@ -25,7 +25,7 @@
   "homepage": "https://github.com/ryanwillis/redux-persist-capacitor#readme",
   "typings": "./src/index.d.ts",
   "dependencies": {
-    "@capacitor/storage": "^1.0.0"
+    "@capacitor/storage": "^1.0.3"
   },
   "peerDependencies": {
     "redux-persist": "^6.0.0"
