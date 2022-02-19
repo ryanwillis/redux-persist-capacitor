@@ -12,7 +12,7 @@ CapacitorStorage can be used as a drop-in replacement for any redux-persist stor
 import { createStore } from 'redux'
 import { persistStore, persistReducer } from 'redux-persist'
 import autoMergeLevel1 from 'redux-persist/lib/stateReconciler/autoMergeLevel1';
-import CapacitorStorage from 'redux-persist-capacitor-storage';
+import CapacitorStorage from 'redux-persist-capacitor';
 
 import rootReducer from './reducers'
 
@@ -35,7 +35,7 @@ Here's a recent example using multiple [@reduxjs/toolkit](https://redux-toolkit.
 import { configureStore, createSlice, getDefaultMiddleware } from '@reduxjs/toolkit';
 import { persistCombineReducers, persistStore, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import autoMergeLevel1 from 'redux-persist/lib/stateReconciler/autoMergeLevel1';
-import CapacitorStorage from 'redux-persist-capacitor-storage';
+import CapacitorStorage from 'redux-persist-capacitor';
 
 const persistConfig = {
   key: 'root',
