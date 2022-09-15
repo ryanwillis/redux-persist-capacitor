@@ -1,6 +1,6 @@
 {
   "name": "redux-persist-capacitor",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Storage adapter to use Capacitor Storage with redux-persist.",
   "main": "src/index.js",
   "scripts": {
