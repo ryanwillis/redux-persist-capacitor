@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/ryanwillis/redux-persist-capacitor#readme",
   "typings": "./src/index.d.ts",
-  "dependencies": {
-    "@capacitor/storage": "^1.2.4"
-  },
   "devDependencies": {
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
     "redux-persist": "^6.0.0"
+  },
+  "dependencies": {
+    "@capacitor/preferences": "^4.0.1"
   }
 }

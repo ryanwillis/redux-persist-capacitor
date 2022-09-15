@@ -1,4 +1,4 @@
-import {Storage} from '@capacitor/storage';
+import {Preferences} from '@capacitor/preferences';
 
 class CapacitorStorage {
   /**
@@ -9,7 +9,7 @@ class CapacitorStorage {
    * @returns {Promise<string | null>}
    */
   async getItem(key) {
-    const response = await Storage.get({key});
+    const response = await Preferences.get({key});
 
     return response.value;
   }
@@ -23,7 +23,7 @@ class CapacitorStorage {
    * @returns {Promise<void>}
    */
   async setItem(key, value) {
-    await Storage.set({
+    await Preferences.set({
       key,
       value
     });
@@ -37,7 +37,7 @@ class CapacitorStorage {
    * @returns {Promise<void>}
    */
   async removeItem(key) {
-    await Storage.remove({key});
+    await Preferences.remove({key});
   }
 
   /**
@@ -47,7 +47,7 @@ class CapacitorStorage {
    * @returns {Promise<string[] | undefined>}
    */
   async getAllKeys() {
-    const response = await Storage.keys();
+    const response = await Preferences.keys();
 
     return response?.keys;
   }
@@ -59,7 +59,7 @@ class CapacitorStorage {
    * @returns {Promise<void>}
    */
   async clear() {
-    await Storage.clear();
+    await Preferences.clear();
   }
 }
 
